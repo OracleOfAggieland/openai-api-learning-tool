@@ -6,6 +6,7 @@ export type TestCase = {
   json: boolean;
   reasoningEffort: "low" | "medium" | "high";
   model: string;
+  enableTools?: boolean; // Added tools support
 };
 
 const KEY = "api-learning-tool:testcases";
